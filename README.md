@@ -33,6 +33,10 @@ The main implementation is in the `NLP_Project_Afriberta_Large.py` file.
 
 ### Dependencies
 
+To load the dataset, import the necessary module:
+```bash
+from datasets import load_dataset
+```
 To run the project, install the required dependencies:
 
 ```bash
