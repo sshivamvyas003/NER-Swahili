@@ -52,6 +52,7 @@ from transformers import Trainer, DataCollatorForTokenClassification
 While running the dataset loading code:
 
 ```python
+from datasets import load_dataset
 # Load the MasakhaNER dataset
 dataset = load_dataset("masakhaner", "swa")
 ```
